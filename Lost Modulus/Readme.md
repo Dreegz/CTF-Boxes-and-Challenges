@@ -1,7 +1,7 @@
 Download or Copy the lostmodulus.py script
 
 Usage - 
-pip install pycryptodome
+pip install pycryptodome \n
 python3 lostmodulus.py
 
 Notes -
