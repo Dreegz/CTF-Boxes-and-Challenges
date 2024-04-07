@@ -1,5 +1,7 @@
 ### Download or Copy the lostmodulus.py script
 
+Decrypt is already defined.  Just alter main() to decrypt and decode('utf-8')
+
 **Usage** - 
 ```
 pip install pycryptodome
