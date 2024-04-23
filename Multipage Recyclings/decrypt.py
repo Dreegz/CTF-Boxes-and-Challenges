@@ -8,8 +8,8 @@ ct = bytes.fromhex("b25bc89662197c6462188e5960eea4fbef11424b8ebdcd6b45c8f4240d64
 ct_blocks = blockify(ct, 16)
 
 # Leak
-r = unhex("5fe633e7071e690fbe58a9dace6f3606")
-r_plus_1 = unhex("501ccdc4600bc2dcf350c6b77fcf2681")
+r = bytes.fromhex("5fe633e7071e690fbe58a9dace6f3606")
+r_plus_1 = bytes.fromhex("501ccdc4600bc2dcf350c6b77fcf2681")
 
 # Xor - leak to ciphertext
 pt_block3 = xor(ct_blocks[4], r)
